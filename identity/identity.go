@@ -8,7 +8,8 @@ import (
 
 	"encoding/json"
 
-	"github.com/hyperledger/fabric/core/chaincode/lib/cid"
+	// "github.com/hyperledger/fabric/core/chaincode/lib/cid"
+	"github.com/hyperledger/fabric/core/chaincode/shim/ext/cid"
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 	"github.com/hyperledger/fabric/protos/msp"
 )
