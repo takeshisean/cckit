@@ -6,11 +6,16 @@ import (
 
 	"github.com/hyperledger/fabric/protos/peer"
 
-	"github.com/s7techlab/hlf-sdk-go/api"
+	// "github.com/s7techlab/hlf-sdk-go/api"
 
-	"github.com/s7techlab/cckit/examples/cars"
-	examplecert "github.com/s7techlab/cckit/examples/cert"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	// "github.com/s7techlab/cckit/examples/cars"
+	// examplecert "github.com/s7techlab/cckit/examples/cert"
+	// expectcc "github.com/s7techlab/cckit/testing/expect"
+	
+	"github.com/takeshisean/hlf-sdk-go/api"
+	"github.com/takeshisean/cckit/examples/cars"
+	examplecert "github.com/takeshisean/cckit/examples/cert"
+	expectcc "github.com/takeshisean/cckit/testing/expect"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
