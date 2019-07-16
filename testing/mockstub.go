@@ -13,7 +13,8 @@ import (
 	"github.com/hyperledger/fabric/protos/peer"
 	gologging "github.com/op/go-logging"
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/convert"
+	// "github.com/s7techlab/cckit/convert"
+	"github.com/takeshisean/cckit/convert"
 )
 
 const EventChannelBufferSize = 100
