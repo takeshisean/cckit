@@ -4,7 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/s7techlab/cckit/convert"
+	// "github.com/s7techlab/cckit/convert"
+	"github.com/takeshisean/cckit/convert"
 
 	"github.com/golang/protobuf/ptypes/timestamp"
 
