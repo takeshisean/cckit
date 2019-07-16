@@ -8,7 +8,8 @@ import (
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 	"github.com/hyperledger/fabric/protos/peer"
 	g "github.com/onsi/gomega"
-	"github.com/s7techlab/cckit/convert"
+	// "github.com/s7techlab/cckit/convert"
+	"github.com/takeshisean/cckit/convert"	
 )
 
 // ResponseOk expects peer.Response has shim.OK status and message has okSubstr prefix
