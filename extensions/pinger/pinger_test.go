@@ -5,11 +5,11 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	examplecert "github.com/s7techlab/cckit/examples/cert"
-	"github.com/s7techlab/cckit/identity"
-	"github.com/s7techlab/cckit/router"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	examplecert "github.com/takeshisean/cckit/examples/cert"
+	"github.com/takeshisean/cckit/identity"
+	"github.com/takeshisean/cckit/router"
+	testcc "github.com/takeshisean/cckit/testing"
+	expectcc "github.com/takeshisean/cckit/testing/expect"
 )
 
 func TestPinger(t *testing.T) {
@@ -28,7 +28,7 @@ var _ = Describe(`Pinger`, func() {
 
 	//Create chaincode mock
 	cc := testcc.NewMockStub(`cars`, New())
-	invokerIdentity, err := identity.FromFile(`SOME_MSP`, `s7techlab.pem`, examplecert.Content)
+	invokerIdentity, err := identity.FromFile(`SOME_MSP`, `takeshisean.pem`, examplecert.Content)
 	if err != nil {
 		panic(err)
 	}

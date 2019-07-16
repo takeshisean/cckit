@@ -6,7 +6,7 @@ import (
 
 	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
-	"github.com/s7techlab/hlf-sdk-go/api"
+	"github.com/takeshisean/hlf-sdk-go/api"
 )
 
 type (

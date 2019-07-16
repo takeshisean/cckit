@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/s7techlab/cckit/examples/cpaper"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	"github.com/takeshisean/cckit/examples/cpaper"
+	testcc "github.com/takeshisean/cckit/testing"
+	expectcc "github.com/takeshisean/cckit/testing/expect"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -7,7 +7,7 @@ import (
 
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 	"github.com/hyperledger/fabric/protos/peer"
-	// "github.com/s7techlab/cckit/response"
+	// "github.com/takeshisean/cckit/response"
 	"github.com/takeshisean/cckit/response"
 )
 

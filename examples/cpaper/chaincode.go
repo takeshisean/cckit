@@ -2,11 +2,11 @@ package cpaper
 
 import (
 	"fmt"
-	"github.com/s7techlab/cckit/router/param"
+	"github.com/takeshisean/cckit/router/param"
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/router"
+	"github.com/takeshisean/cckit/router"
 )
 
 type TaskState string

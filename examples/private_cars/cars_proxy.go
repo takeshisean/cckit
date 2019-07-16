@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/s7techlab/cckit/router"
-	p "github.com/s7techlab/cckit/router/param"
+	"github.com/takeshisean/cckit/router"
+	p "github.com/takeshisean/cckit/router/param"
 )
 
 // NewProxy created chaincode, related to cars chaincode

@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/s7techlab/cckit/state"
-	"github.com/s7techlab/cckit/state/testdata/schema"
+	"github.com/takeshisean/cckit/state"
+	"github.com/takeshisean/cckit/state/testdata/schema"
 
-	"github.com/s7techlab/cckit/state/testdata"
+	"github.com/takeshisean/cckit/state/testdata"
 
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	expectcc "github.com/takeshisean/cckit/testing/expect"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -30,7 +30,7 @@ var _ = Describe(`PrivateState`, func() {
 	// BeforeSuite(func() {
 
 	// 	actors, err = testcc.IdentitiesFromFiles(`SOME_MSP`, map[string]string{
-	// 		`owner`: `s7techlab.pem`,
+	// 		`owner`: `takeshisean.pem`,
 	// 	}, examplecert.Content)
 
 	// 	Expect(err).To(BeNil())

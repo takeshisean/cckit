@@ -5,8 +5,8 @@ import (
 
 	"github.com/hyperledger/fabric/msp"
 	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/s7techlab/cckit/extensions/encryption"
-	"github.com/s7techlab/cckit/gateway/service"
+	"github.com/takeshisean/cckit/extensions/encryption"
+	"github.com/takeshisean/cckit/gateway/service"
 )
 
 // Chaincode interface for work with chaincode

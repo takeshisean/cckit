@@ -8,7 +8,7 @@ import (
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 	"github.com/hyperledger/fabric/protos/peer"
 	g "github.com/onsi/gomega"
-	// "github.com/s7techlab/cckit/convert"
+	// "github.com/takeshisean/cckit/convert"
 	"github.com/takeshisean/cckit/convert"	
 )
 

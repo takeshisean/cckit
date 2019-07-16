@@ -3,8 +3,8 @@ package owner
 
 import (
 	"github.com/pkg/errors"
-	// "github.com/s7techlab/cckit/identity"
-	// r "github.com/s7techlab/cckit/router"
+	// "github.com/takeshisean/cckit/identity"
+	// r "github.com/takeshisean/cckit/router"
 	"github.com/takeshisean/cckit/identity"
 	r "github.com/takeshisean/cckit/router"
 )

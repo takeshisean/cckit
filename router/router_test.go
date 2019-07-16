@@ -7,12 +7,12 @@ import (
 
 	"github.com/hyperledger/fabric/protos/peer"
 
-	// testcc "github.com/s7techlab/cckit/testing"
+	// testcc "github.com/takeshisean/cckit/testing"
 	testcc "github.com/takeshisean/cckit/testing"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	// "github.com/s7techlab/cckit/router"
+	// "github.com/takeshisean/cckit/router"
 	"github.com/takeshisean/cckit/router"
 )
 

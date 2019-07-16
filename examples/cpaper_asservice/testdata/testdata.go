@@ -3,7 +3,7 @@ package testdata
 import (
 	"io/ioutil"
 
-	"github.com/s7techlab/cckit/testing"
+	"github.com/takeshisean/cckit/testing"
 )
 
 func GetTestIdentity(msp, file string) *testing.Identity {

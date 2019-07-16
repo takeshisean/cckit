@@ -10,7 +10,7 @@ import (
 
 	"github.com/hyperledger/fabric/msp"
 	"github.com/hyperledger/fabric/protos/peer"
-	// "github.com/s7techlab/hlf-sdk-go/api"
+	// "github.com/takeshisean/hlf-sdk-go/api"
 	"github.com/takeshisean/hlf-sdk-go/api"
 )
 

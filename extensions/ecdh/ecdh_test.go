@@ -8,9 +8,9 @@ import (
 
 	"fmt"
 
-	examplecert "github.com/s7techlab/cckit/examples/cert"
-	"github.com/s7techlab/cckit/extensions/ecdh"
-	testcc "github.com/s7techlab/cckit/testing"
+	examplecert "github.com/takeshisean/cckit/examples/cert"
+	"github.com/takeshisean/cckit/extensions/ecdh"
+	testcc "github.com/takeshisean/cckit/testing"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -25,7 +25,7 @@ var _ = Describe(`ECDH`, func() {
 
 	//load actor certificates
 	actors, err := testcc.IdentitiesFromFiles(`SOME_MSP`, map[string]string{
-		`authority`: `s7techlab.pem`,
+		`authority`: `takeshisean.pem`,
 		`someone1`:  `victor-nosov.pem`,
 		`someone2`:  `some-person.pem`,
 	}, examplecert.Content)
@@ -37,7 +37,7 @@ var _ = Describe(`ECDH`, func() {
 	pubKey2 := actors[`someone1`].Certificate.PublicKey.(*ecdsa.PublicKey)
 	pubKey3 := actors[`someone2`].Certificate.PublicKey.(*ecdsa.PublicKey)
 
-	privKey1Bytes, _ := examplecert.Content(`s7techlab.key.pem`)
+	privKey1Bytes, _ := examplecert.Content(`takeshisean.key.pem`)
 	privKey1, err := ecdh.PrivateKey(privKey1Bytes)
 
 	if err != nil {

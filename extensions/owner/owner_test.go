@@ -3,11 +3,11 @@ package owner
 import (
 	"testing"
 
-	// examplecert "github.com/s7techlab/cckit/examples/cert"
-	// "github.com/s7techlab/cckit/identity"
-	// "github.com/s7techlab/cckit/router"
-	// testcc "github.com/s7techlab/cckit/testing"
-	// expectcc "github.com/s7techlab/cckit/testing/expect"
+	// examplecert "github.com/takeshisean/cckit/examples/cert"
+	// "github.com/takeshisean/cckit/identity"
+	// "github.com/takeshisean/cckit/router"
+	// testcc "github.com/takeshisean/cckit/testing"
+	// expectcc "github.com/takeshisean/cckit/testing/expect"
 	
 	examplecert "github.com/takeshisean/cckit/examples/cert"
 	"github.com/takeshisean/cckit/identity"
@@ -45,7 +45,7 @@ var _ = Describe(`Ownable`, func() {
 	cc1 := testcc.NewMockStub(`ownableFromCreator`, NewOwnableFromCreator())
 	cc2 := testcc.NewMockStub(`ownableFromArgs`, NewOwnableFromArgs())
 	actors, err := testcc.IdentitiesFromFiles(`SOME_MSP`, map[string]string{
-		`owner`:   `s7techlab.pem`,
+		`owner`:   `takeshisean.pem`,
 		`someone`: `victor-nosov.pem`}, examplecert.Content)
 	if err != nil {
 		panic(err)

@@ -5,19 +5,19 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/s7techlab/cckit/extensions/encryption/testdata"
+	"github.com/takeshisean/cckit/extensions/encryption/testdata"
 
 	"github.com/hyperledger/fabric/protos/peer"
 
-	"github.com/s7techlab/cckit/state/mapping"
+	"github.com/takeshisean/cckit/state/mapping"
 
-	"github.com/s7techlab/cckit/examples/payment/schema"
+	"github.com/takeshisean/cckit/examples/payment/schema"
 
-	examplecert "github.com/s7techlab/cckit/examples/cert"
-	"github.com/s7techlab/cckit/examples/payment"
-	"github.com/s7techlab/cckit/extensions/encryption"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	examplecert "github.com/takeshisean/cckit/examples/cert"
+	"github.com/takeshisean/cckit/examples/payment"
+	"github.com/takeshisean/cckit/extensions/encryption"
+	testcc "github.com/takeshisean/cckit/testing"
+	expectcc "github.com/takeshisean/cckit/testing/expect"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -92,7 +92,7 @@ var _ = Describe(`Router`, func() {
 			`paymentsEncWithContext/payment-channel`,
 			encryptPaymentCCWithEncStateContext)
 		actors, err = testcc.IdentitiesFromFiles(`SOME_MSP`, map[string]string{
-			`owner`:   `s7techlab.pem`,
+			`owner`:   `takeshisean.pem`,
 			`someone`: `victor-nosov.pem`}, examplecert.Content)
 		Expect(err).To(BeNil())
 

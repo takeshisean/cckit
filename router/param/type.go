@@ -5,8 +5,8 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/pkg/errors"
-	// "github.com/s7techlab/cckit/convert"
-	// "github.com/s7techlab/cckit/router"	
+	// "github.com/takeshisean/cckit/convert"
+	// "github.com/takeshisean/cckit/router"	
 	"github.com/takeshisean/cckit/convert"
 	"github.com/takeshisean/cckit/router"
 )

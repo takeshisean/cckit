@@ -1,14 +1,14 @@
 package testdata
 
 import (
-	"github.com/s7techlab/cckit/extensions/debug"
-	"github.com/s7techlab/cckit/extensions/owner"
-	"github.com/s7techlab/cckit/router"
-	"github.com/s7techlab/cckit/router/param"
-	"github.com/s7techlab/cckit/router/param/defparam"
-	"github.com/s7techlab/cckit/state"
-	m "github.com/s7techlab/cckit/state/mapping"
-	"github.com/s7techlab/cckit/state/mapping/testdata/schema"
+	"github.com/takeshisean/cckit/extensions/debug"
+	"github.com/takeshisean/cckit/extensions/owner"
+	"github.com/takeshisean/cckit/router"
+	"github.com/takeshisean/cckit/router/param"
+	"github.com/takeshisean/cckit/router/param/defparam"
+	"github.com/takeshisean/cckit/state"
+	m "github.com/takeshisean/cckit/state/mapping"
+	"github.com/takeshisean/cckit/state/mapping/testdata/schema"
 )
 
 func NewSliceIdCC() *router.Chaincode {

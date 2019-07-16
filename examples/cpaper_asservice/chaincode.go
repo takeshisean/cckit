@@ -7,13 +7,13 @@ import (
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/examples/cpaper_asservice/schema"
-	"github.com/s7techlab/cckit/examples/cpaper_asservice/service"
-	"github.com/s7techlab/cckit/extensions/encryption"
-	"github.com/s7techlab/cckit/extensions/owner"
-	"github.com/s7techlab/cckit/router"
-	"github.com/s7techlab/cckit/state"
-	m "github.com/s7techlab/cckit/state/mapping"
+	"github.com/takeshisean/cckit/examples/cpaper_asservice/schema"
+	"github.com/takeshisean/cckit/examples/cpaper_asservice/service"
+	"github.com/takeshisean/cckit/extensions/encryption"
+	"github.com/takeshisean/cckit/extensions/owner"
+	"github.com/takeshisean/cckit/router"
+	"github.com/takeshisean/cckit/state"
+	m "github.com/takeshisean/cckit/state/mapping"
 )
 
 func CCRouter(name string) (*router.Group, error) {

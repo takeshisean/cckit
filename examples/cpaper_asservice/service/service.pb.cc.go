@@ -13,11 +13,11 @@ import (
 	context "context"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/s7techlab/cckit/examples/cpaper_asservice/schema"
-	cckit_gateway "github.com/s7techlab/cckit/gateway"
-	cckit_ccservice "github.com/s7techlab/cckit/gateway/service"
-	cckit_router "github.com/s7techlab/cckit/router"
-	cckit_defparam "github.com/s7techlab/cckit/router/param/defparam"
+	"github.com/takeshisean/cckit/examples/cpaper_asservice/schema"
+	cckit_gateway "github.com/takeshisean/cckit/gateway"
+	cckit_ccservice "github.com/takeshisean/cckit/gateway/service"
+	cckit_router "github.com/takeshisean/cckit/router"
+	cckit_defparam "github.com/takeshisean/cckit/router/param/defparam"
 )
 
 // CPaperChaincode  method names

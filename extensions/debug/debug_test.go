@@ -5,12 +5,12 @@ import (
 
 	"strconv"
 
-	examplecert "github.com/s7techlab/cckit/examples/cert"
-	"github.com/s7techlab/cckit/extensions/debug"
-	"github.com/s7techlab/cckit/extensions/owner"
-	"github.com/s7techlab/cckit/router"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	examplecert "github.com/takeshisean/cckit/examples/cert"
+	"github.com/takeshisean/cckit/extensions/debug"
+	"github.com/takeshisean/cckit/extensions/owner"
+	"github.com/takeshisean/cckit/router"
+	testcc "github.com/takeshisean/cckit/testing"
+	expectcc "github.com/takeshisean/cckit/testing/expect"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -32,7 +32,7 @@ var _ = Describe(`Debuggable`, func() {
 	//Create chaincode mock
 	cc := testcc.NewMockStub(`debuggable`, New())
 	actors, err := testcc.IdentitiesFromFiles(`SOME_MSP`, map[string]string{
-		`owner`: `s7techlab.pem`,
+		`owner`: `takeshisean.pem`,
 	}, examplecert.Content)
 	if err != nil {
 		panic(err)

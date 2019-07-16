@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/s7techlab/cckit/convert"
-	"github.com/s7techlab/cckit/gateway/service"
+	"github.com/takeshisean/cckit/convert"
+	"github.com/takeshisean/cckit/gateway/service"
 )
 
 type Action string

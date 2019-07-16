@@ -8,14 +8,14 @@ import (
 	"github.com/hyperledger/fabric/protos/peer"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	examplecert "github.com/s7techlab/cckit/examples/cert"
-	"github.com/s7techlab/cckit/state"
-	"github.com/s7techlab/cckit/state/mapping"
-	"github.com/s7techlab/cckit/state/mapping/testdata"
-	"github.com/s7techlab/cckit/state/mapping/testdata/schema"
-	state_schema "github.com/s7techlab/cckit/state/schema"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	examplecert "github.com/takeshisean/cckit/examples/cert"
+	"github.com/takeshisean/cckit/state"
+	"github.com/takeshisean/cckit/state/mapping"
+	"github.com/takeshisean/cckit/state/mapping/testdata"
+	"github.com/takeshisean/cckit/state/mapping/testdata/schema"
+	state_schema "github.com/takeshisean/cckit/state/schema"
+	testcc "github.com/takeshisean/cckit/testing"
+	expectcc "github.com/takeshisean/cckit/testing/expect"
 )
 
 func TestState(t *testing.T) {
@@ -32,7 +32,7 @@ var _ = Describe(`Mapping`, func() {
 
 	BeforeSuite(func() {
 		actors, err = testcc.IdentitiesFromFiles(`SOME_MSP`, map[string]string{
-			`owner`: `s7techlab.pem`,
+			`owner`: `takeshisean.pem`,
 		}, examplecert.Content)
 
 		Expect(err).To(BeNil())

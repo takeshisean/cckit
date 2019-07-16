@@ -6,7 +6,7 @@ import (
 	"time"
 
 	msppb "github.com/hyperledger/fabric/protos/msp"
-	// "github.com/s7techlab/cckit/identity"
+	// "github.com/takeshisean/cckit/identity"
 	"github.com/takeshisean/cckit/identity"
 
 	"github.com/golang/protobuf/proto"

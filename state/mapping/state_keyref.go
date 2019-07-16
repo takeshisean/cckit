@@ -3,8 +3,8 @@ package mapping
 import (
 	"strings"
 
-	"github.com/s7techlab/cckit/state"
-	"github.com/s7techlab/cckit/state/schema"
+	"github.com/takeshisean/cckit/state"
+	"github.com/takeshisean/cckit/state/schema"
 )
 
 // KeyRefNamespace namespace for uniq indexes
