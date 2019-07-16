@@ -3,10 +3,15 @@ package erc20_test
 import (
 	"testing"
 
-	examplecert "github.com/s7techlab/cckit/examples/cert"
-	"github.com/s7techlab/cckit/examples/erc20"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	// examplecert "github.com/s7techlab/cckit/examples/cert"
+	// "github.com/s7techlab/cckit/examples/erc20"
+	// testcc "github.com/s7techlab/cckit/testing"
+	// expectcc "github.com/s7techlab/cckit/testing/expect"
+	
+	examplecert "github.com/takeshisean/cckit/examples/cert"
+	"github.com/takeshisean/cckit/examples/erc20"
+	testcc "github.com/takeshisean/cckit/testing"
+	expectcc "github.com/takeshisean/cckit/testing/expect"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
