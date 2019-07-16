@@ -2,7 +2,8 @@ package erc20
 
 import (
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/identity"
+	// "github.com/s7techlab/cckit/identity"
+	"github.com/takeshisean/cckit/identity"
 	r "github.com/s7techlab/cckit/router"
 )
 
