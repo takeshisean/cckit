@@ -1,7 +1,8 @@
 package owner
 
 import (
-	"github.com/s7techlab/cckit/router"
+	// "github.com/s7techlab/cckit/router"	
+	"github.com/takeshisean/cckit/router"
 )
 
 const QueryMethod = `owner`
